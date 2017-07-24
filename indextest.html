@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.pitch{
+				background-color: lightgreen;
+			}
+			.row1, .row3, .row4, .goalPost{
+				text-align: center;
+			}
+			.marginTop{
+				position: relative;
+				margin-top: 15px;
+				margin-bottom: 10px;
+			}
+			.player{
+				display: inline-block;
+				text-align: center;
+				width: 100px;
+								
+				border-radius: 5px;
+				position: relative;
+			}
+		
+			.player:hover{
+				cursor: pointer;
+				box-shadow: 0px 0px 30px black;
+			}
+
+			.playerA:hover{
+					-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+					animation-name: example;
+					animation-duration: 4s;
+			}
+			/* Safari 4.0 - 8.0 */
+			@-webkit-keyframes example {
+					0%   { left:0px; top:0px;}
+					25%  { left:200px; top:0px;}
+}
+			/* Standard syntax */
+			@keyframes example {
+					0%   { left:0px; top:0px;}
+					25%  { left:200px; top:0px;}
+}
+
+
+			.player img{
+				width: 70px;
+			}
+			.goalPost img{
+				max-height: 150px;
+				width: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class='pitch'>
+			<div class="goalPost">
+				<img src="http://footballcoachingshop.com/football-soccer/coaching-goals/coaching-goal.png">
+			</div>
+			<div class="row1 marginTop">
+				<div class='player playerA' id='P1'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Byron Jones</span><br>
+					<span>S 31</span>
+				</div>
+			</div>
+			<div class="row2 marginTop">
+				<div class='player' id='P2'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Chidobe Awuzie</span><br>
+					<span>CB 33</span>
+				</div>
+				<div class='player' style="float: right" id='P3'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Jourdan Lewis</span><br>
+					<span>CB 27</span>
+				</div>
+			</div>
+			<div class="row3 marginTop">
+				<div class='player' id='P4'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Sean Lee</span><br>
+					<span>LB 50</span>
+				</div>
+			</div>
+			<div class="row4 marginTop">
+				<div class='player' style="margin-right: 150px" id='P5'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>David Irving</span><br>
+					<span>DL 98</span>
+				</div>
+				<div class='player' style="margin-left: 150px" id='P6'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Tyrone Crawford</span><br>
+					<span>DL 95</span>
+				</div>
+			</div>
+			<div style="height:2px; width: 100%; background-color:white;"></div>
+			<div class="row5 marginTop" style="text-align:center">
+				<div class='player' style="position: absolute; left: 10px" id='P7'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'><br>
+					<span>Dez Bryant</span><br>
+					<span>WR 88</span>
+				</div>
+				<div class='player' id='P8'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Travis Frederick</span><br>
+					<span>C 72</span>
+				</div>
+				<div class='player' style="float: right; position:absolute; right: 15%" id='P9'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Jason Witten</span><br>
+					<span>TE 82</span>
+				</div>
+			</div>
+			<div class="row6 marginTop" style="text-align:center">
+				<div class='player' id='P10'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Dak Prescott</span><br>
+					<span>QB 4</span>
+				</div>
+			</div>
+			<div class="row7 marginTop" style="position: relative;margin-top: -10px;">
+				<div class='player' style="position: absolute; right: 10px;" id='P11'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Terrance Williams</span><br>
+					<span>WR 83</span>
+				</div>
+			</div>
+			<div class="row8 marginTop" style="text-align:center; margin-top: 70px;">
+				<div class='player' id='P12'>
+					<img src='https://cdn4.iconfinder.com/data/icons/STROKE/education_icons/png/400/school_events.png'>
+					<span>Ezekiel Elliot</span><br>
+					<span>RB 21</span>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
